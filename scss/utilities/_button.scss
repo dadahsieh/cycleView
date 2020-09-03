@@ -1,0 +1,198 @@
+button {
+  border: 0;
+}
+// 實心按鈕
+.solidBt {
+  padding: 10px 0;
+  text-align: center;
+  color: $white;
+  background-color: $primary;
+  border-radius: $borderRadius;
+  display: block;
+  border: 1px solid $primary;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $white;
+    border: 1px solid $primary;
+    color: $primary;
+  }
+  i {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+// 實心灰按鈕
+.solidGBt {
+  padding: 10px 0;
+  text-align: center;
+  color: $white;
+  background-color: $lighttone;
+  border-radius: $borderRadius;
+  display: block;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $lighttone;
+    color: $deeptone;
+  }
+  i {
+    width: 12px;
+    height: 12px;
+  }
+}
+// 圓邊按鈕
+.radiusGBt {
+  height: 44px;
+  line-height: 44px;
+  color: $white;
+  background-color: $primary;
+  border-radius: $borderRadius;
+  text-align: center;
+  display: block;
+  border: 1px solid $primary;
+  border-radius: 60px;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $white;
+    color: $primary;
+  }
+}
+
+// 外框按鈕
+.lineBt {
+  padding: 10px 0;
+  text-align: center;
+  background-color: $white;
+  border-radius: $borderRadius;
+  border: 1px solid $primary;
+  color: $primary;
+  display: block;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $white;
+    background-color: $primary;
+    border-radius: $borderRadius;
+  }
+  i {
+    width: 12px;
+    height: 12px;
+  }
+}
+// 外框灰按鈕
+.lineGBt {
+  padding: 10px 0;
+  text-align: center;
+  background-color: $white;
+  border-radius: $borderRadius;
+  border: 1px solid $lighttone;
+  color: $lighttone;
+  display: block;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $white;
+    background-color: $lighttone;
+    border-radius: $borderRadius;
+  }
+  i {
+    width: 12px;
+    height: 12px;
+  }
+}
+// 文字按鈕
+.textBt {
+  color: $primary;
+  background-color: transparent;
+  text-align: center;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $secondary;
+  }
+}
+// 分享按鈕
+.lineFBBt {
+  height: 44px;
+  line-height: 44px;
+  background-color: #4267b2;
+  border-radius: $borderRadius;
+  border: 1px solid #4267b2;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 0 8px;
+  span {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background: url(../images/fbIcon.svg) no-repeat;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  &:hover {
+    background-color: $white;
+    border: 1px solid #4267b2;
+    color: #4267b2;
+    span {
+      background: url(../images/fbIcon_o.svg) no-repeat;
+    }
+  }
+}
+.lineLINEBt {
+  height: 44px;
+  line-height: 44px;
+  background-color: #01b901;
+  border-radius: $borderRadius;
+  border: 1px solid #01b901;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 0 8px;
+  span {
+    display: inline-block;
+    width: 32px;
+    height: 36px;
+    background: url(../images/lineIcon.svg) no-repeat;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  &:hover {
+    background-color: $white;
+    border: 1px solid #01b901;
+    color: #01b901;
+    span {
+      background: url(../images/lineIcon_o.svg) no-repeat;
+    }
+  }
+}
+// 下底線連結
+.unlineBt {
+  color: $primary;
+  text-decoration: underline;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $secondary;
+    text-decoration: underline;
+  }
+}
+.unlineBt2 {
+  color: $secondary;
+  text-decoration: underline;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
+// ICON
+.arrIcon_w {
+  background: url(../images/arrIcon_w@2x.png) no-repeat;
+  background-size: contain;
+}
